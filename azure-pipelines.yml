@@ -10,7 +10,7 @@ steps:
   displayName: 'Use .NET Core sdk'
   inputs:
     packageType: runtime
-    version: 3.x
+    version: 2.x
     installationPath: $(Agent.ToolsDirectory)/dotnet
 - task: NuGetToolInstaller@0
   displayName: 'Use NuGet 4.4.1'
